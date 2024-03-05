@@ -1,0 +1,5 @@
+FROM  Apache/2.4.58 (Amazon Linux)
+RUN   YUM UPDATE -Y 
+MAINTAINER VAIBHAV 
+COPY /home/ec2-user/docker_vaibhav/docker_vaibhav
+CMD  mkdir vaibhav 
